@@ -18,7 +18,32 @@
         <nav class="navbar navbar-expand-lg custom-navbar navbar-dark">
 >>>>>>> acdb222 (arreglo de estructura html)
             <div class="container-fluid">
+<<<<<<< HEAD
                 <a class="navbar-brand" href="#">Navbar</a>
+=======
+<<<<<<< HEAD
+                <a class="nav-link active" aria-current="page" href="<?= base_url('inicio') ?>">
+                    <img src="assets/img/logo.png" alt="" width="77" height="77" class="img-fluid">
+                </a>
+=======
+                <!-- Logo si NO es perfil administrador (perfil_id != 1) -->
+                <?php if (session('perfil_id') != 1): ?>
+                    <a class="nav-link active" aria-current="page" href="<?= base_url('inicio') ?>">
+                        <img src="<?= base_url('assets/img/logo.png') ?>" alt="Logo" width="77" height="77" class="img-fluid">
+                    </a>
+<<<<<<< HEAD
+                <?php endif; ?>
+
+                <!-- Logo si es perfil administrador (perfil_id == 1) -->
+                <?php if (session('perfil_id') == 1): ?>
+                    <a class="nav-link active" aria-current="page" href="<?= base_url('logueado') ?>">
+                        <img src="<?= base_url('assets/img/logo.png') ?>" alt="Logo" width="77" height="77" class="img-fluid">
+                    </a>
+                <?php endif; ?>
+
+                 <!-- Botón hamburguesa para colapsar el menú en pantallas pequeñas -->
+>>>>>>> 8fbf328 (Arreglo del dropbox)
+>>>>>>> e3dee25 (Arreglo del dropbox)
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button> 
@@ -184,7 +209,32 @@
                                 </form>
                             </li>
                         <?php endif; ?>
+<<<<<<< HEAD
 >>>>>>> 8708807 (logica de carrito terminada)
+=======
+
+                        <!-- Menú solo para administradores -->
+                        <?php if (session('perfil_id') == 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('ventas') ?>">Ventas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/ver-consultas') ?>">Consultas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/crear') ?>">CRUD Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/vista') ?>">CRUD Usuarios</a>
+                            </li>
+                        <?php endif; ?>
+=======
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="catalogo#terror">Terror</a></li>
+                        <li><a class="dropdown-item" href="catalogo#ciencia_ficcion">Ciencia Ficcion</a></li>
+                        <li><a class="dropdown-item" href="catalogo#comedia">Comedia</a></li>
+>>>>>>> 71bf4af (Arreglo del dropbox)
+>>>>>>> 8fbf328 (Arreglo del dropbox)
                     </ul>
 >>>>>>> 8051494 (logica del crud de productos)
 >>>>>>> 711ab97 (logica del crud de productos)
