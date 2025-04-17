@@ -12,4 +12,25 @@ class Home extends BaseController
         echo view('front/inicio', $data);
         echo view('front/footer_view', $data); 
     }
+<<<<<<< HEAD
+=======
+
+    public function quienes_somos()
+    {
+        $data['titulo'] = '¿Quiénes Somos?';
+        echo view('front/head_view',$data);
+        echo view('front/nav_view', $data);
+        echo view('front/quienes_somos', $data);
+        echo view('front/footer_view', $data);
+    }
+
+    public function catalogo()
+    {
+        $data['titulo'] = 'Catalogo';
+        echo view('front/head_view',$data);
+        echo view('front/nav_view', $data);
+        echo view('front/catalogo', $data);
+        echo view('front/footer_view', $data);
+    }
+>>>>>>> 499cbfe (Primera version del catalogo)
 }
