@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
 p{ font-family: verdana;
 text-align: justufy;
@@ -6,6 +7,11 @@ color: rgb(136, 214, 20);
 font-size:24 px;
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c774d58 (cambios)
+>>>>>>> 058660f (cambios)
 body {
     background-color: #c29763;
     margin: 0;
@@ -13,6 +19,12 @@ body {
     height: 100%;
 >>>>>>> 57be2c4 (cambios de las recomendaciones)
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> 058660f (cambios)
 body {
 background-color: lightblue;
 }
@@ -65,12 +77,15 @@ footer{
 =======
 =======
 >>>>>>> 5cd22cf (Cambio de estilo)
+=======
+>>>>>>> c774d58 (cambios)
 .custom-navbar {
     width: 100%;
         background-size: cover;
     background-color: #d5a468 !important;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 .custom-footer {
@@ -86,6 +101,8 @@ footer{
     background-color: #f3c970 !important;
 >>>>>>> 5cd22cf (Cambio de estilo)
 =======
+=======
+>>>>>>> c774d58 (cambios)
 .navbar form[role="search"] .form-control {
     background-color: #ffffff !important;
     color: #6c757d !important;
@@ -99,7 +116,10 @@ footer{
 
 .custom-hero{
     background-color: #d8b362 !important;
+<<<<<<< HEAD
 >>>>>>> 9c2d447 (Agregar contacto pagina)
+=======
+>>>>>>> c774d58 (cambios)
 }
 
 .custom-hero .h1 {
@@ -108,6 +128,7 @@ footer{
 
 .custom-footer {
     background-color: #d5a468 !important;
+<<<<<<< HEAD
 }
 
 =======
@@ -154,4 +175,10 @@ footer{
     }
   }
 >>>>>>> ee43c56 (cambios de las recomendaciones)
+<<<<<<< HEAD
 >>>>>>> 57be2c4 (cambios de las recomendaciones)
+=======
+=======
+}
+>>>>>>> c774d58 (cambios)
+>>>>>>> 058660f (cambios)
