@@ -63,6 +63,7 @@
           <h6 class="text-uppercase fw-bold mb-4">
             Products
           </h6>
+<<<<<<< HEAD
           <p>
             <a href="https://www.instagram.com/" class="text-reset">Instagram</a>
           </p>
@@ -75,6 +76,8 @@
           <p>
             <a href="#!" class="text-reset">Laravel</a>
           </p>
+=======
+>>>>>>> 8744baa (cambio de lugar de contacto)
         </div>
         <!-- Grid column -->
 
