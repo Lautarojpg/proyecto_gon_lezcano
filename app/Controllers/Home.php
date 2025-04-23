@@ -32,5 +32,26 @@ class Home extends BaseController
         echo view('front/catalogo', $data);
         echo view('front/footer_view', $data);
     }
+<<<<<<< HEAD
 >>>>>>> 499cbfe (Primera version del catalogo)
+=======
+
+    public function contacto()
+    {
+        $data['titulo'] = 'contacto';
+        echo view('front/head_view',$data);
+        echo view('front/nav_view', $data);
+        echo view('front/contacto', $data);
+        echo view('front/footer_view', $data);
+    }
+
+    public function comercializacion()
+    {
+        $data['titulo'] = 'comercializacion';
+        echo view('front/head_view',$data);
+        echo view('front/nav_view', $data);
+        echo view('front/comercializacion', $data);
+        echo view('front/footer_view', $data);
+    }
+>>>>>>> 563ba3a (Se agrego la pagina comercializacion, y se quito)
 }
