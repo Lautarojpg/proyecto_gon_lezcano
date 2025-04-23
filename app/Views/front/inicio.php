@@ -144,7 +144,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets\img\nosferatu_carrusel.png" class="d-block w-100" alt="nosferatu_carrusel">
+      <img src="assets/img/nosferatu_gif.gif" class="d-block w-100" alt="nosferatu_carrusel">
       <div class="carousel-caption d-none d-md-block">
         <div class="card" style="width: 18rem;">
             <img src="assets\img\nosferatu.jpg" class="card-img-top">
@@ -153,8 +153,8 @@
     </div>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets\img\theGhoul_carrusel.png" class="d-block w-100" alt="TheGhoul_carrusel">
+    <div class="carousel-item">
+      <img src="assets/img/theGhoul_gif.gif" class="d-block w-100" alt="TheGhoul_carrusel">
       <div class="carousel-caption d-none d-md-block">
         <div class="card" style="width: 18rem;">
           <img src="assets\img\theGhoul.jpg" class="card-img-top">
@@ -163,8 +163,8 @@
     </div>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets\img\duckSoup_carrusel.png" class="d-block w-100" alt="duckSoup_carrusel">
+    <div class="carousel-item">
+      <img src="assets/img/duckSoup_gif.gif" class="d-block w-100" alt="duckSoup_carrusel">
       <div class="carousel-caption d-none d-md-block">
         <div class="card" style="width: 18rem;">
           <img src="assets\img\duckSoup.jpg" class="card-img-top">
