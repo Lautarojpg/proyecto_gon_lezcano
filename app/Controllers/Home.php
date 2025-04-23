@@ -53,5 +53,17 @@ class Home extends BaseController
         echo view('front/comercializacion', $data);
         echo view('front/footer_view', $data);
     }
+<<<<<<< HEAD
 >>>>>>> 563ba3a (Se agrego la pagina comercializacion, y se quito)
+=======
+
+    public function terminos()
+    {
+        $data['titulo'] = 'terminos';
+        echo view('front/head_view',$data);
+        echo view('front/nav_view', $data);
+        echo view('front/terminos', $data);
+        echo view('front/footer_view', $data);
+    }
+>>>>>>> 8f0bf29 (agregado de la pagina terminos y condiciones)
 }

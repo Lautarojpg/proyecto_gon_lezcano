@@ -13,4 +13,8 @@ $routes->get('quienes_somos', 'Home::quienes_somos');
 $routes->get('catalogo', 'Home::catalogo');
 $routes->get('contacto', 'Home::contacto');
 $routes->get('comercializacion', 'Home::comercializacion');
+<<<<<<< HEAD
 >>>>>>> 563ba3a (Se agrego la pagina comercializacion, y se quito)
+=======
+$routes->get('terminos', 'Home::terminos');
+>>>>>>> 8f0bf29 (agregado de la pagina terminos y condiciones)
