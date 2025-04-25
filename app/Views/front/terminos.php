@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 <section class="container">
     <div>
         <h1 class="display-4">Términos y Condiciones</h1>
+=======
+<section class="container py-5">
+    <div class="mb-4">
+        <h1 class="display-4 text-center">Términos y Condiciones</h1>
+>>>>>>> e3c7283 (detalles de diseño)
     </div>
     <div>
         <p>

@@ -81,8 +81,13 @@ footer{
 >>>>>>> c774d58 (cambios)
 .custom-navbar {
     width: 100%;
+<<<<<<< HEAD
         background-size: cover;
     background-color: #d5a468 !important;
+=======
+    background-size: cover;
+    background-color: #ddd2a6 !important;
+>>>>>>> e3c7283 (detalles de diseño)
 }
 
 <<<<<<< HEAD
@@ -126,6 +131,18 @@ footer{
     font-family: verdana;
 }
 
+<<<<<<< HEAD
+=======
+.carrusel-personalizado{
+    background-color: #777157 !important;
+}
+
+.fs-3{
+    text-align: center;
+    color: #ddd2a6;
+}
+
+>>>>>>> e3c7283 (detalles de diseño)
 .custom-footer {
     background-color: #d5a468 !important;
 <<<<<<< HEAD
@@ -181,4 +198,33 @@ footer{
 =======
 }
 >>>>>>> c774d58 (cambios)
+<<<<<<< HEAD
 >>>>>>> 058660f (cambios)
+=======
+=======
+    background-color: #ddd2a6;
+}
+<<<<<<< HEAD
+>>>>>>> 60a5f56 (cambio de estilo y pequeños arreglos)
+=======
+
+.custom-card {
+    font-size: larger;
+    background-color: #f4efdb;
+    text-align: center;
+    color: #777157;
+}
+
+#terror{
+    color: #777157;
+}
+
+#ciencia-ficcion{
+    color: #777157;
+}
+
+#comedia{
+    color: #777157;
+}
+>>>>>>> 8255bb5 (detalles de diseño)
+>>>>>>> e3c7283 (detalles de diseño)

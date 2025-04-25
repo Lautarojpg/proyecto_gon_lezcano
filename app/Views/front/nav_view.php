@@ -17,6 +17,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
@@ -24,6 +25,9 @@
 =======
                     <a class="nav-link active" href="<?= base_url('quienes_somos') ?>">Nosotros</a>
 >>>>>>> d3879e4 (cambio de imagenes de comercializacion y arreglo)
+=======
+                    <a class="nav-link active nav_color" href="<?= base_url('quienes_somos') ?>">Nosotros</a>
+>>>>>>> e3c7283 (detalles de diseño)
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="<?= base_url('catalogo') ?>" id="catalogoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
