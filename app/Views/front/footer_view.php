@@ -12,9 +12,13 @@
     <div class="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
     </div>
+<<<<<<< HEAD
     <!-- Left -->
 
     <!-- Right -->
+=======
+<<<<<<< HEAD
+>>>>>>> f5614bd (arreglo de links)
     <div>
       <a href="" class="me-4 text-reset">
         <i class="fab fa-facebook-f"></i>
@@ -27,6 +31,17 @@
       </a>
       <a href="" class="me-4 text-reset">
         <i class="fab fa-instagram"></i>
+=======
+    <div class="d-flex align-items-center">
+      <a href="https://www.facebook.com" target="_blank" class="me-3 text-reset">
+        <img src="assets/img/logo_facebook.png" alt="Facebook" width="40" height="40" class="img-fluid rounded">
+      </a>
+      <a href="https://www.x.com" target="_blank" class="me-3 text-reset">
+        <img src="assets/img/logo_x.png" alt="X" width="40" height="40" class="img-fluid rounded">
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="me-3 text-reset">
+        <img src="assets/img/logo_instagram.png" alt="Instagram" width="40" height="40" class="img-fluid rounded">
+>>>>>>> 16a9671 (arreglo de links)
       </a>
       <a href="" class="me-4 text-reset">
         <i class="fab fa-linkedin"></i>
