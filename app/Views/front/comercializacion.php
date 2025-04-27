@@ -25,8 +25,26 @@
             <img src="assets/img/correoImg.png" alt="Ejemplo de correo" class="img-fluid rounded">
 >>>>>>> 85d04ad (boton limpiar en contacto)
         </div>
+<<<<<<< HEAD
         <div style="width: 60%; padding-right: 20px;">
             <h2>🎬 ¿Cómo consigo una película?</h2>
+=======
+        <div class="col-lg-6">
+            <h2 class="h4">¿Cómo consigo una película?</h2>
+            <p>El proceso es muy sencillo, y lo hicimos pensando en que no tengas que complicarte:</p>
+            <ul>
+                <li>Explorá el catálogo: Navegá entre las películas disponibles.</li>
+                <li>Elegí tu favorita: Hacé clic en "Comprar".</li>
+                <li>Dejanos tu email: Para enviarte el enlace.</li>
+                <li>Revisá tu bandeja: Recibirás un correo con el link directo a la película en Internet Archive.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row align-items-center mb-5">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+            <h2 class="h4">¿Por qué hacemos esto?</h2>
+>>>>>>> efcde0c (cambio en comercializacion)
             <p>
             El proceso es muy sencillo, y lo hicimos pensando en que no tengas que complicarte:
             Explora el catálogo: Navega entre las películas disponibles. Tenemos clásicos de todos los géneros y épocas, desde el cine mudo hasta producciones de los años 40 y 50.
