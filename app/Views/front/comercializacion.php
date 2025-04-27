@@ -12,11 +12,18 @@
             <img src="assets/img/trabajando.jpeg" alt="Cine clásico" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
         </div>
     </div>
+<<<<<<< HEAD
 </section>
 <section class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;"> <!-- primera seccion-->
     <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
         <div style="max-width: 400px; width: 100%; height: auto;">
             <img src="assets/img/correoEjemplo.png" alt="Cine clásico" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+=======
+
+    <div class="row align-items-center mb-5 flex-lg-row-reverse">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+            <img src="assets/img/correoImg.png" alt="Ejemplo de correo" class="img-fluid rounded">
+>>>>>>> 85d04ad (boton limpiar en contacto)
         </div>
         <div style="width: 60%; padding-right: 20px;">
             <h2>🎬 ¿Cómo consigo una película?</h2>
