@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
     <head>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -5,9 +6,17 @@
         <title>Proyecto</title>
     </head>
     <body>
+<<<<<<< HEAD
     <h1 class="display-1">Pepepelis</h1> <!-- titulo -->
         <section class="conteiner-fluid"> <!-- barra de nav -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+=======
+=======
+<body>
+>>>>>>> 795032f (arreglo de estructura html)
+    <section class="w-100 m-0 p-0">    <!-- barra de nav -->
+        <nav class="navbar navbar-expand-lg custom-navbar navbar-dark">
+>>>>>>> acdb222 (arreglo de estructura html)
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,13 +56,15 @@
                     <a class="nav-link active" href="<?= base_url('contacto') ?>">Contacto</a>
                     </li>
                 </ul>
+<<<<<<< HEAD
                 <form class="d-flex" role="search">
+=======
+                 <!-- <form class="d-flex" role="search">
+>>>>>>> acdb222 (arreglo de estructura html)
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
                 </div>
             </div>
         </nav>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
+    </section>
