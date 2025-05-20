@@ -65,5 +65,39 @@ class Home extends BaseController
         echo view('front/terminos', $data);
         echo view('front/footer_view', $data);
     }
+<<<<<<< HEAD
 >>>>>>> 8f0bf29 (agregado de la pagina terminos y condiciones)
+=======
+
+    public function privacidad()
+    {
+        $data['titulo'] = 'privacidad';
+        echo view('front/head_view',$data);
+        echo view('front/nav_view', $data);
+        echo view('front/privacidad', $data);
+        echo view('front/footer_view', $data);
+    }
+<<<<<<< HEAD
+>>>>>>> c725c85 (parte del formulario)
 }
+=======
+
+    public function preguntas_frecuentes()
+    {
+        $data['titulo'] = 'Preguntas Frecuentes';
+        echo view('front/head_view',$data);
+        echo view('front/nav_view', $data);
+        echo view('front/preguntas_frecuentes', $data);
+        echo view('front/footer_view', $data);
+    }
+
+    public function formulario()
+    {
+        $data['titulo'] = 'formulario';
+        echo view('front/head_view',$data);
+        echo view('front/nav_view', $data);
+        echo view('back/formulario.php', $data);
+        echo view('front/footer_view', $data);
+    }
+}
+>>>>>>> dd6fd9f (parte del formulario)

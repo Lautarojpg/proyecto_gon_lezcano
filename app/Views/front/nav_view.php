@@ -55,6 +55,22 @@
                     <li class="nav-item">
                     <a class="nav-link active" href="<?= base_url('contacto') ?>">Contacto</a>
                     </li>
+<<<<<<< HEAD
+=======
+                    <li class="nav-item">
+                    <a class="nav-link active" href="<?= base_url('formulario') ?>">Formulario</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <span class="nav-link dropdown-toggle active" id="ayudaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ayuda
+                    </span>
+                        <ul class="dropdown-menu" aria-labelledby="Ayuda">
+                            <li><a class="dropdown-item" href="<?= base_url('preguntas_frecuentes') ?>">Preguntas Frecuentes</a></li>
+                            <li><a class="dropdown-item" href="<?= base_url('terminos') ?>">Términos y Condiciones</a></li>
+                            <li><a class="dropdown-item" href="<?= base_url('privacidad') ?>">Politica de Privacidad</a></li>
+                        </ul>
+                    </li>
+>>>>>>> 7cf4eae (parte del formulario)
                 </ul>
 <<<<<<< HEAD
                 <form class="d-flex" role="search">
