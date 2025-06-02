@@ -60,6 +60,13 @@
                     <li class="nav-item">
                     <a class="nav-link active" href="<?= base_url('formulario') ?>">Formulario</a>
                     </li>
+                     <li>
+                        <?php if (session('perfil_id') == 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/crear') ?>">CRUD Productos</a>
+                            </li>
+                        <?php endif; ?>
+                     </li>
                     <li class="nav-item dropdown">
                     <span class="nav-link dropdown-toggle active" id="ayudaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Ayuda
@@ -70,11 +77,18 @@
                             <li><a class="dropdown-item" href="<?= base_url('privacidad') ?>">Politica de Privacidad</a></li>
                         </ul>
                     </li>
+<<<<<<< HEAD
 >>>>>>> 7cf4eae (parte del formulario)
                 </ul>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <form class="d-flex" role="search">
 =======
+=======
+=======
+                    </ul>
+>>>>>>> 8051494 (logica del crud de productos)
+>>>>>>> 711ab97 (logica del crud de productos)
                  <!-- <form class="d-flex" role="search">
 >>>>>>> acdb222 (arreglo de estructura html)
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

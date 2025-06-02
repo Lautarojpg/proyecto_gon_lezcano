@@ -35,6 +35,25 @@ $routes->post('/enviarlogin', 'Login_controller::auth');
 $routes->get('/login', 'Panel_controller::index', ['filter' => 'auth']);
 $routes->get('/logout', 'Login_controller::logout');
 
+<<<<<<< HEAD
 >>>>>>> 7cf4eae (parte del formulario)
+<<<<<<< HEAD
 >>>>>>> dd6fd9f (parte del formulario)
+<<<<<<< HEAD
 >>>>>>> c725c85 (parte del formulario)
+=======
+=======
+=======
+
+$routes->get('/crear', 'Productos_controller::index', ['filter' => 'auth']);
+$routes->get('/agregar', 'Productos_controller::index', ['filter' => 'auth']);
+$routes->get('/produ-form', 'Productos_controller::crearproducto', ['filter' => 'auth']);
+$routes->post('/enviar-produ', 'Productos_controller::store', ['filter' => 'auth']);
+$routes->get('/editar/(:num)', 'Productos_controller::singleproducto/$1', ['filter' => 'auth']);
+$routes->post('modifica/(:num)', 'Productos_controller::modifica/$1', ['filter' => 'auth']);
+$routes->get('borrar/(:num)', 'Productos_controller::deleteproducto/$1', ['filter' => 'auth']);
+$routes->get('/eliminados', 'Productos_controller::eliminados', ['filter' => 'auth']);
+$routes->get('activar_pro/(:num)', 'Productos_controller::activarproducto/$1', ['filter' => 'auth']);
+>>>>>>> 8051494 (logica del crud de productos)
+>>>>>>> a189e9c (logica del crud de productos)
+>>>>>>> 711ab97 (logica del crud de productos)

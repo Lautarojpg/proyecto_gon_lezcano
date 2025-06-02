@@ -99,5 +99,10 @@ class Home extends BaseController
         echo view('back/formulario.php', $data);
         echo view('front/footer_view', $data);
     }
+<<<<<<< HEAD
 }
 >>>>>>> dd6fd9f (parte del formulario)
+=======
+
+}
+>>>>>>> a189e9c (logica del crud de productos)
