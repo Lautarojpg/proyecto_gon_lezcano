@@ -53,7 +53,17 @@ $routes->get('/editar/(:num)', 'Productos_controller::singleproducto/$1', ['filt
 $routes->post('modifica/(:num)', 'Productos_controller::modifica/$1', ['filter' => 'auth']);
 $routes->get('borrar/(:num)', 'Productos_controller::deleteproducto/$1', ['filter' => 'auth']);
 $routes->get('/eliminados', 'Productos_controller::eliminados', ['filter' => 'auth']);
+<<<<<<< HEAD
 $routes->get('activar_pro/(:num)', 'Productos_controller::activarproducto/$1', ['filter' => 'auth']);
 >>>>>>> 8051494 (logica del crud de productos)
+<<<<<<< HEAD
 >>>>>>> a189e9c (logica del crud de productos)
+<<<<<<< HEAD
 >>>>>>> 711ab97 (logica del crud de productos)
+=======
+=======
+=======
+$routes->get('/activar_pro/(:num)', 'Productos_controller::activarproducto/$1', ['filter' => 'auth']);
+>>>>>>> 139f245 (crud de productos terminado (falta mejora estetica))
+>>>>>>> e86a2d7 (crud de productos terminado (falta mejora estetica))
+>>>>>>> 7c5ebb4 (crud de productos terminado (falta mejora estetica))
