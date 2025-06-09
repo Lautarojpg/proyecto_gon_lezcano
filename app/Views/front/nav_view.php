@@ -61,6 +61,57 @@
                     <a class="nav-link active" href="<?= base_url('formulario') ?>">Formulario</a>
                     </li>
                      <li>
+<<<<<<< HEAD
+=======
+=======
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <?php if (session('perfil_id') != 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('comercializacion') ?>">Comercializacion</a>
+                            </li>
+                        <?php endif; ?>
+                        <?php if (session('perfil_id') != 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active nav_color" href="<?= base_url('quienes_somos') ?>">Nosotros</a>
+                            </li>
+                        <?php endif; ?>
+                        <?php if (session('perfil_id') == 2): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('contacto') ?>">Contacto</a>
+                            </li>
+                        <?php endif; ?>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        <li class="nav-item">
+                            <a class="nav-link active" href="<?= base_url('registro') ?>">Registro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="<?= base_url('login') ?>">Login</a>
+                        </li>
+>>>>>>> e090184 (Consultas)
+=======
+=======
+                        <?php if (session('perfil_id') == 2): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/todos_p') ?>">Catalogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/muestro') ?>">Carrito</a>
+                            </li>
+                        <?php endif; ?>
+>>>>>>> 83fcc73 (catalogo y carrito (problema con el modulo cart))
+                        <?php if (session('perfil_id') != 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('registro') ?>">Registro</a>
+                            </li>
+                        <?php endif; ?>
+                        <?php if (session('perfil_id') != 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('login') ?>">Login</a>
+                            </li>
+                        <?php endif; ?>
+>>>>>>> 744ebcd (usuarios y cierre de sesion)
+>>>>>>> 091a9b4 (catalogo y carrito (problema con el modulo cart))
                         <?php if (session('perfil_id') == 1): ?>
                             <li class="nav-item">
                                 <a class="nav-link active" href="<?= base_url('/crear') ?>">CRUD Productos</a>

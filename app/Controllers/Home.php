@@ -24,6 +24,7 @@ class Home extends BaseController
         echo view('front/footer_view', $data);
     }
 
+<<<<<<< HEAD
     public function catalogo()
     {
         $data['titulo'] = 'catalogo';
@@ -36,6 +37,8 @@ class Home extends BaseController
 >>>>>>> 499cbfe (Primera version del catalogo)
 =======
 
+=======
+>>>>>>> 091a9b4 (catalogo y carrito (problema con el modulo cart))
     public function contacto()
     {
         $data['titulo'] = 'contacto';
