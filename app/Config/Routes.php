@@ -54,6 +54,7 @@ $routes->post('modifica/(:num)', 'Productos_controller::modifica/$1', ['filter' 
 $routes->get('borrar/(:num)', 'Productos_controller::deleteproducto/$1', ['filter' => 'auth']);
 $routes->get('/eliminados', 'Productos_controller::eliminados', ['filter' => 'auth']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 $routes->get('activar_pro/(:num)', 'Productos_controller::activarproducto/$1', ['filter' => 'auth']);
 >>>>>>> 8051494 (logica del crud de productos)
 <<<<<<< HEAD
@@ -65,5 +66,40 @@ $routes->get('activar_pro/(:num)', 'Productos_controller::activarproducto/$1', [
 =======
 $routes->get('/activar_pro/(:num)', 'Productos_controller::activarproducto/$1', ['filter' => 'auth']);
 >>>>>>> 139f245 (crud de productos terminado (falta mejora estetica))
+<<<<<<< HEAD
 >>>>>>> e86a2d7 (crud de productos terminado (falta mejora estetica))
+<<<<<<< HEAD
 >>>>>>> 7c5ebb4 (crud de productos terminado (falta mejora estetica))
+=======
+=======
+=======
+$routes->get('/activar_pro/(:num)', 'Productos_controller::activarproducto/$1', ['filter' => 'auth']);
+
+//Rutas para el carrito*/
+//muestra todos los productos del catalogo
+$routes->get('/todos_p','carrito_controller::catalogo',['filter' => 'auth']);
+
+//carga la vista carrito_parte_view
+$routes->get('/muestro','carrito_controller::muestra',['filter' => 'auth']);
+
+//actualiza los datos del carrito
+$routes->get('/carrito_actualiza','carrito_controller::actualiza_carrito',['filter' => 'auth']);
+
+//agregar los items seleccionados
+$routes->post('carrito/add','Carrito_controller::add',['filter' => 'auth']);
+
+//elimina un item del carrito
+$routes->get('carrito_elimina/(:any)','carrito_controller::remove/$1',['filter' => 'auth']);
+
+//elimar todo el carrito
+$routes->get('/borrar','carrito_controller::borrar_carrito',['filter' => 'auth']);
+
+//Registrar la venta en las tablas
+$routes->get('/carrito-comprar','Ventascontroller::registrar_venta',['filter' => 'auth']);
+
+//botones de sumar y restar en la vista del carrito
+$routes->get('carrito_suma/(:any)','carrito_controller::suma/$1');
+$routes->get('carrito_resta/(:any)','carrito_controller::resta/$1');
+>>>>>>> 240cc88 (carrito segunda parte)
+>>>>>>> 2e12d49 (carrito segunda parte)
+>>>>>>> 444d7d8 (carrito segunda parte)
