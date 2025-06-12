@@ -94,7 +94,11 @@ $routes->get('carrito_elimina/(:any)','carrito_controller::remove/$1',['filter' 
 $routes->get('/borrar','carrito_controller::borrar_carrito',['filter' => 'auth']);
 
 //Registrar la venta en las tablas
+<<<<<<< HEAD
 $routes->get('/carrito-comprar','Ventascontroller::registrar_venta',['filter' => 'auth']);
+=======
+$routes->get('/carrito-comprar','Ventas_controller::registrar_venta',['filter' => 'auth']);
+>>>>>>> a27b359 (modelos de ventas)
 
 //botones de sumar y restar en la vista del carrito
 $routes->get('carrito_suma/(:any)','carrito_controller::suma/$1');
