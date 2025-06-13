@@ -103,6 +103,19 @@ $routes->get('/carrito-comprar','Ventas_controller::registrar_venta',['filter' =
 //botones de sumar y restar en la vista del carrito
 $routes->get('carrito_suma/(:any)','carrito_controller::suma/$1');
 $routes->get('carrito_resta/(:any)','carrito_controller::resta/$1');
+<<<<<<< HEAD
 >>>>>>> 240cc88 (carrito segunda parte)
+<<<<<<< HEAD
 >>>>>>> 2e12d49 (carrito segunda parte)
+<<<<<<< HEAD
 >>>>>>> 444d7d8 (carrito segunda parte)
+=======
+=======
+=======
+
+$routes->get('vista_compras/(:num)', 'Ventas_controller::ver_facturas/$1', ['filter' => 'auth']);
+$routes->get('ver_factura_usuario/(:num)', 'Ventas_controller::ver_facturas_usuario/$1', ['filter' => 'auth']);
+$routes->get('ventas', 'Ventas_controller::ventas');
+>>>>>>> 8708807 (logica de carrito terminada)
+>>>>>>> 85d809a (logica de carrito terminada)
+>>>>>>> 0b95671 (logica de carrito terminada)

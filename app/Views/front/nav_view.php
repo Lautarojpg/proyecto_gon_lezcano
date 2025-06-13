@@ -117,6 +117,7 @@
                                 <a class="nav-link active" href="<?= base_url('/crear') ?>">CRUD Productos</a>
                             </li>
                         <?php endif; ?>
+<<<<<<< HEAD
                      </li>
                     <li class="nav-item dropdown">
                     <span class="nav-link dropdown-toggle active" id="ayudaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -137,6 +138,40 @@
 =======
 =======
 =======
+=======
+                        <?php if (session('perfil_id') == 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/ver-consultas') ?>">CRUD Consultas</a>
+                            </li>
+                        <?php endif; ?>
+                        <?php if (session('perfil_id') == 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/ver-usuarios') ?>">CRUD Usuarios</a>
+                            </li>
+                        <?php endif; ?>
+                        <?php if (session('perfil_id') == 1): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('ventas') ?>">CRUD Ventas</a>
+                            </li>
+                        <?php endif; ?>
+                        <?php if (in_array(session('perfil_id'), [1, 2])): ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="<?= base_url('/logout') ?>">Cerrar sesión</a>
+                            </li>
+                        <?php endif; ?>
+                        <?php if (session('perfil_id') != 1): ?>
+                            <li class="nav-item dropdown">
+                            <span class="nav-link dropdown-toggle active" id="ayudaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ayuda
+                            </span>
+                                <ul class="dropdown-menu" aria-labelledby="Ayuda">
+                                    <li><a class="dropdown-item" href="<?= base_url('preguntas_frecuentes') ?>">Preguntas Frecuentes</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url('terminos') ?>">Términos y Condiciones</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url('privacidad') ?>">Politica de Privacidad</a></li>
+                                </ul>
+                            </li>
+                        <?php endif; ?>
+>>>>>>> 8708807 (logica de carrito terminada)
                     </ul>
 >>>>>>> 8051494 (logica del crud de productos)
 >>>>>>> 711ab97 (logica del crud de productos)
