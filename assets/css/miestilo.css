@@ -79,6 +79,27 @@ footer{
 >>>>>>> 5cd22cf (Cambio de estilo)
 =======
 >>>>>>> c774d58 (cambios)
+<<<<<<< HEAD
+=======
+=======
+
+
+table.custom-table thead tr > th {
+    background-color: #777157 !important;
+    color: white !important;
+    box-shadow: none !important ;
+}
+
+table.custom-table tbody tr > td{
+    background-color: #ddd2a6 !important;
+    box-shadow: none !important;
+}
+
+h1{
+    text-align: center;
+}
+>>>>>>> 84df287 (Productos)
+>>>>>>> 620875f (arreglo 1)
 .custom-navbar {
     width: 100%;
 <<<<<<< HEAD
@@ -223,4 +244,29 @@ footer{
     color: #777157;
 }
 >>>>>>> 8255bb5 (detalles de diseño)
+<<<<<<< HEAD
 >>>>>>> e3c7283 (detalles de diseño)
+=======
+<<<<<<< HEAD
+=======
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 84df287 (Productos)
+=======
+    table.custom-table thead tr > th {
+        background-color: #777157 !important;
+        color: white !important;
+        box-shadow: none !important;
+    }
+
+    table.custom-table tbody tr > td{
+        background-color: #ddd2a6 !important;
+        box-shadow: none !important;
+    }
+>>>>>>> 71d8781 (una parte)
+=======
+>>>>>>> 7821045 (arreglo 1)
+>>>>>>> 620875f (arreglo 1)
+>>>>>>> 0435c0c (arreglo 1)

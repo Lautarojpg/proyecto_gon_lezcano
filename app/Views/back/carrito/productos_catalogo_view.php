@@ -29,8 +29,14 @@
                                             <p class="card-text">Disponible: <?= $row['stock'] ?> unidades</p>
 
                                             <?php
+<<<<<<< HEAD
                                             echo form_open('/carrito-comprar');
                                             echo form_hidden('id', $row['id']);
+=======
+                                            echo form_open(base_url('add'), ['method' => 'post']);
+                                            echo csrf_field(); 
+                                            echo form_hidden('id', $row['id_producto']);
+>>>>>>> 620875f (arreglo 1)
                                             echo form_hidden('precio_vta', $row['precio_vta']);
                                             echo form_hidden('nombre_prod', $row['nombre_prod']);
                                             echo form_hidden('imagen', $row['imagen']);
@@ -43,7 +49,7 @@
                                             echo form_close();
                                             ?>
 
-                                            <a href="<?= base_url('producto/detalles/' . $row['id']) ?>" class="d-block mt-2">Ver Detalles</a>
+                                            <a href="<?= base_url('producto/detalles/' . $row['id_producto']) ?>" class="d-block mt-2">Ver Detalles</a>
                                         </div>
                                     </div>
                                 </div>

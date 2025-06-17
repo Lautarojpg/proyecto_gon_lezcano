@@ -50,7 +50,7 @@ $routes->get('/produ-form', 'Productos_controller::crearproducto', ['filter' => 
 $routes->post('/enviar-produ', 'Productos_controller::store', ['filter' => 'auth']);
 $routes->get('/editar/(:num)', 'Productos_controller::singleproducto/$1', ['filter' => 'auth']);
 $routes->post('modifica/(:num)', 'Productos_controller::modifica/$1', ['filter' => 'auth']);
-$routes->get('borrar/(:num)', 'Productos_controller::deleteproducto/$1', ['filter' => 'auth']);
+$routes->get('borrar_producto/(:num)', 'Productos_controller::deleteproducto/$1', ['filter' => 'auth']);
 $routes->get('/eliminados', 'Productos_controller::eliminados', ['filter' => 'auth']);
 <<<<<<< HEAD
 <<<<<<< HEAD
