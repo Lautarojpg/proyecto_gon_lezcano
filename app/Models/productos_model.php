@@ -23,7 +23,15 @@ class Productos_Model extends Model
 
     public function getProducto($id = null){
         $builder = $this->getBuilderProductos();
+<<<<<<< HEAD
         $builder->where('productos.id', $id);
+=======
+        if($id !== null){
+            $builder->where('productos.id_producto', $id);
+            $query = $builder->get();
+            return $query->getRowArray();
+        }
+>>>>>>> bdbdc41 (arreglo 2)
         $query = $builder->get();
         return $query->getRowArray();
 >>>>>>> a27b359 (modelos de ventas)
@@ -31,7 +39,7 @@ class Productos_Model extends Model
 
     public function updateStock($id = null, $stock_actual = null){
         $builder = $this->getBuilderProductos();
-        $builder->where('productos.id', $id);
+        $builder->where('productos.id_producto', $id);
         $builder->set('productos.stock', $stock_actual);
         $builder->update();
     }
