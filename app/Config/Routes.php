@@ -128,8 +128,20 @@ $routes->get('carrito_resta/(:any)','carrito_controller::resta/$1');
 $routes->get('/buscar','carrito_controller::buscar');
 
 $routes->get('vista_compras/(:num)', 'Ventas_controller::ver_facturas/$1', ['filter' => 'auth']);
+<<<<<<< HEAD
 $routes->get('ver_factura_usuario/(:num)', 'Ventas_controller::ver_facturas_usuario/$1', ['filter' => 'auth']);
 $routes->get('ventas', 'Ventas_controller::ventas');
 >>>>>>> 8708807 (logica de carrito terminada)
+<<<<<<< HEAD
 >>>>>>> 85d809a (logica de carrito terminada)
+<<<<<<< HEAD
 >>>>>>> 0b95671 (logica de carrito terminada)
+=======
+=======
+=======
+$routes->get('ver_factura_usuario/(:num)', 'Ventas_controller::ver_factura_usuario/$1', ['filter' => 'auth']);
+$routes->get('ventas', 'Ventas_controller::ventas');
+$routes->get('finalizar_compra', 'carrito_controller::finalizar_compra');
+>>>>>>> cebfb38 (envio de correo)
+>>>>>>> d283d5d (envio de correo)
+>>>>>>> e312854 (envio de correo)
